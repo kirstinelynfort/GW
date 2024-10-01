@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Truck">
+<path id="Vector" d="M23 10H28.3225C28.5218 9.99991 28.7165 10.0594 28.8818 10.1707C29.0471 10.2821 29.1753 10.4403 29.25 10.625L31 15" stroke="#F4EFEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M3 18H23" stroke="#F4EFEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M24 27C25.6569 27 27 25.6569 27 24C27 22.3431 25.6569 21 24 21C22.3431 21 21 22.3431 21 24C21 25.6569 22.3431 27 24 27Z" stroke="#F4EFEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M10 27C11.6569 27 13 25.6569 13 24C13 22.3431 11.6569 21 10 21C8.34315 21 7 22.3431 7 24C7 25.6569 8.34315 27 10 27Z" stroke="#F4EFEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M21 24H13" stroke="#F4EFEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M23 15H31V23C31 23.2652 30.8946 23.5196 30.7071 23.7071C30.5196 23.8946 30.2652 24 30 24H27" stroke="#F4EFEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M7 24H4C3.73478 24 3.48043 23.8946 3.29289 23.7071C3.10536 23.5196 3 23.2652 3 23V9C3 8.73478 3.10536 8.48043 3.29289 8.29289C3.48043 8.10536 3.73478 8 4 8H23V21.1712" stroke="#F4EFEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

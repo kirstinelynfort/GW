@@ -4,72 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GREY WOLF</title>
+    <script src="https://kit.fontawesome.com/f87cd985e0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
-
 <body>
     <header>
-        <a href="index.html">
-        <img src="img/logo.png" alt="grey wolf"/>
-            </a>
-                <nav>
-                    <ul>
-                        <li><a href="produkter.html">PRODUKTER</a></li>
-                        <li><a href="om-os.html">OM OS</a></li>
-                        <li><a href="kundeklub.html">KUNDEKLUB</a></li>
-                        <li><a href="support.html">SUPPORT</a></li>
-                        <li><a href="indkøbskurv.html">INDKØBSKURV</a></li>
-                        <li><a href="donate-recycle-resue.html">DONATE RECYCLE REUSE</a></li>
-                    </ul>
-                </nav>
+        <div class="top-bar">
+            <img class="truck-icon" src="img/icons/truck.svg" alt="truck"/>
+            <span>Gratis fragt for over 299 kr.</span>
+        </div>
+        <nav>
+            <img src="img/icons/kurv.svg" alt="">
+            <img src="img/icons/logo.svg" alt="">
+            <img src="img/icons/burger-menu.svg" alt="">
+        </nav>
     </header>
-    <h1>GREY WOLF</h1>
     
-    <a href="LÆS MERE HER">
-    </a>
-        <img
-        src="" alt="donate recycle reuse"/>
-    <a href="donate-recycle-resue.html">
-        <h3>LÆS MERE HER</h3>
-    </a>
-        <img
-        src="img/deler-jakke.jpg" alt="a girl with a black tshirt"/>
-        <img
-        src="img/white-blazer.jpg" alt="a boy with a white tshirt"/>
-        <br /> <br />
-        <img
-        src="img/white-blazer.jpg" alt="a girl with a white blazer"/>
-        <img 
-        src="img/deler-jakke.jpg" alt="to men with a jacket"/>
-        <br /> <br />
-        <img
-        src="img/black-pants.jpg" alt="a girl with black pants"/>
-        <img
-        src="img/boy-white-shirt-black-pants.jpg" alt="a boy with black pants and a white tshirt"/>
-        <a href="produkter.html">
-        <h3>ALLE PRODUKTER</h3>
-    </a>
+    <div class="video-container">
+        <video class="cover-video" autoplay muted playsinline>
+            <source src="vid/startside.mp4">
+        </video>
+        <h1 class="video-title">GREY WOLF</h1>
+    </div>
+    <img class="donate-image" src="img/drr.png" alt="donate recycle reuse"/>
+    <a class="button" href="donate-recycle-resue.html">Læs mere her</a>
+    <div class="grid">
+        <div class="product-card">
+            <div class="product-image-container">
+                <img class="product-image"
+            src="img/ryste-hovedet.jpeg" alt="a girl with a black tshirt"/>
+            </div>
+            <h4 class="product-title">T-shirt</h4>
+            <p class="product-price">149 DKK</p>
+        </div>
+        <div class="product-card">
+            <div class="product-image-container">
+                <img class="product-image"
+            src="img/mand-mur.jpeg" alt="a girl with a black tshirt"/>
+            </div>
+            <h4 class="product-title">T-shirt</h4>
+            <p class="product-price">149 DKK</p>
+        </div>
+        <div class="product-card">
+            <div class="product-image-container">
+                <img class="product-image"
+            src="img/white-blazer.jpg" alt="a girl with a black tshirt"/>
+            </div>
+            <h4 class="product-title">Jakke</h4>
+            <p class="product-price">299 DKK</p>
+        </div>
+        <div class="product-card">
+            <div class="product-image-container">
+                <img class="product-image"
+            src="img/deler-jakke.jpg" alt="a girl with a black tshirt"/>
+            </div>
+            <h4 class="product-title">Jakke</h4>
+            <p class="product-price">299 DKK</p>
+        </div>
+        <div class="product-card">
+            <div class="product-image-container">
+                <img class="product-image"
+            src="img/black-pants.jpg" alt="a girl with a black tshirt"/>
+            </div>
+            <h4 class="product-title">Bukser</h4>
+            <p class="product-price">199 DKK</p>
+        </div>
+        <div class="product-card">
+            <div class="product-image-container">
+                <img class="product-image"
+            src="img/boy-white-shirt-black-pants.jpg" alt="a girl with a black tshirt"/>
+            </div>
+            <h4 class="product-title">Bukser</h4>
+            <p class="product-price">199 DKK</p>
+        </div>
+    </div>
+        <a class="button" href="produkter.html">ALLE PRODUKTER</a>
         <h2>KUNDEKLUB</h2>
-    </a>
-        <img
-        src="" alt="a group of people on stairs"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex </p>
-            <h3>MELD DIG IND HER</h3>
-
-
+        <div class="text-image">
+            <div class="image-container">
+                <img class="image" src="img/sitting-on-stairs.jpeg" alt="a group of people on stairs"/>
+            </div>
+            <div class="text">
+                <p>Bliv medlem af Grey Wolfs kundeklub og få adgang til unikke rabatter samt fri fragt på alle dine ordrer. <br/><br/>Eksklusivt for dig, der elsker bæredygtig mode!</p>
+            </div>
+        </div>
+            <a class="button" href="#">MELD DIG IND HER</a>
+    <footer>
+        <ul class="footer-menu">
+            <li><a href="produkter.html">KUNDESERVICE</a></li>
+            <li><a href="om-os.html">OM OS</a></li>
+            <li><a href="donate-recycle-resue.html">DONATE AND REUSE</a></li>
+            <li><a href="support.html">FRAGT OG LEVERING</a></li>
+            <li><a href="indkøbskurv.html">HANDELSBETINGELSER</a></li>
+        </ul>
+        <a href="#" class="scroll-to-top"><img src="img/icons/arrow-up.svg" alt=""></a>
+    </footer>
 </body>
 </html>
-
-<body></body>
-    <header>
-            </a>
-                <nav>
-                    <ul>
-                        <li><a href="produkter.html">KUNDESERVICE</a></li>
-                        <li><a href="om-os.html">OM OS</a></li>
-                        <li><a href="donate-recycle-resue.html">DONATE AND REUSE</a></li>
-                        <li><a href="support.html">FRAGT OG LEVERING</a></li>
-                        <li><a href="indkøbskurv.html">HANDELSBETINGELSER</a></li>
-                    </ul>
-                </nav>
-    </header>

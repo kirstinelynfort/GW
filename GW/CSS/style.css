@@ -31,6 +31,34 @@ img {
     text-transform: uppercase;
 }
 
+.menu {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #7E9363;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.close {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+.menu li a {
+    text-align: center;
+    display: inline-block;
+    padding: 18px 0 18px 18px;
+    color: #F4EFEA;
+    text-decoration: none;
+}
+
 header {
     width: 100%;
 }
@@ -51,6 +79,12 @@ nav {
     justify-content: space-between;
     background-color: #7E9363;
     padding: 18px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .video-container {

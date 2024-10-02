@@ -11,6 +11,10 @@ body {
     align-items: center;
 }
 
+body > p {
+    padding: 18px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #7E9363;
     text-transform: uppercase;
@@ -30,6 +34,7 @@ img {
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .placeholder {
@@ -126,7 +131,7 @@ nav a {
     padding: 18px;
 } 
 
-.grid-forside {
+.grid {
     display: grid;
     padding: 18px;
     grid-template-columns: repeat(2, 1fr);
@@ -138,6 +143,18 @@ nav a {
     padding: 18px;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+}
+
+.product-card {
+    position: relative;
+}
+
+.product-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .product-image-container {
@@ -160,18 +177,24 @@ nav a {
     margin: 4px 0 0 0;
 }
 
+.product-cover {
+    padding-bottom: 18px;
+}
+
+.product-cover .product-image {
+    border-radius: 0;
+}
+
+.product-cover .product-title, .product-cover .product-price {
+    padding-left: 18px;
+}
+
 .text-image {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
     padding: 18px;
-}
-
-.kollektionen-tøj {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .image-container {
@@ -184,6 +207,15 @@ nav a {
     height: 100%;
     border-radius: 8px;
     object-fit: cover;
+}
+
+.right-aligned {
+    margin-right: auto;
+    padding-left: 18px;
+}
+
+.centered-text {
+    text-align: center;
 }
 
 footer {

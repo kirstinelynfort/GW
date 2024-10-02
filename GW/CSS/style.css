@@ -11,8 +11,9 @@ body {
     align-items: center;
 }
 
-h1, h2 {
-    color: #283D0D;
+h1, h2, h3, h4, h5, h6 {
+    color: #7E9363;
+    text-transform: uppercase;
 }
 
 img {
@@ -29,6 +30,14 @@ img {
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.placeholder {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .menu {
@@ -117,10 +126,17 @@ nav a {
     padding: 18px;
 } 
 
-.grid {
+.grid-forside {
     display: grid;
     padding: 18px;
     grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.grid-knapper {
+    display: grid;
+    padding: 18px;
+    grid-template-columns: repeat(3, 1fr);
     gap: 32px;
 }
 
@@ -150,6 +166,12 @@ nav a {
     justify-content: space-between;
     gap: 20px;
     padding: 18px;
+}
+
+.kollektionen-tøj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-container {
